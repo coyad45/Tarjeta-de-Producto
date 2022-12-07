@@ -3,11 +3,14 @@ body
 {
     background-color: antiquewhite;
     color: darkcyan;   
-    font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+p
+{
+    font-size: 14px;
 }
 
 .constructor
@@ -36,12 +39,12 @@ h1
     display: flex;
     margin-left: 50px;
     margin-right: 33px;
-    margin-bottom: 40px;
+    margin-bottom: 33px;
     width: 361px;
     height: auto;
     overflow: hidden;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     
 }
 .cantidad
@@ -52,14 +55,27 @@ button
 {
     font-family: 'Montserrat', sans-serif;
     display: flex;
-    background-color: rgba(26,64,49,255);
+    background-color: rgba(60,131,105,255);
     border-style: none;
     color: white;
-    width: 100%;
+    margin: auto;
     height: 10%;
+    margin: 0;
     border-radius: 10px;
-    justify-content: space-evenly;
     align-items: center;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: rgba(26,64,49,255)
+    
+}
+.carrito  
+{
+    background: url(../imagenes/icon-cart.svg) no-repeat 50% 50%;
+    background-size: 20px 21px;
+    height: 100%;
+    width: 90px;
 }
 
 
