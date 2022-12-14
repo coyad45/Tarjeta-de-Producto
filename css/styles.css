@@ -70,6 +70,12 @@ button:hover
     background-color: rgba(26,64,49,255)
     
 }
+.precio
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .carrito  
 {
     background: url(../imagenes/icon-cart.svg) no-repeat 50% 50%;
